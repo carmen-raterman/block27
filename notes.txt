@@ -1,0 +1,13 @@
+Notes on Forms 9.7
+
+How to use state to control elements
+-preventDefault prevents the page from refreshing??
+
+Example of useState for multiple parts of a form 
+    function handleSubmitForm(e) {
+        const [formData, setFormData] = useState({
+            firstName: '';
+            lastName: '';
+            email: '';
+        })
+    }
